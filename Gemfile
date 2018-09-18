@@ -7,6 +7,9 @@ ruby '2.5.1'
 gem 'rails', '~> 5.2.1'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
+gem 'faker'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
