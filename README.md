@@ -1,6 +1,10 @@
-## Getting started
+## Live page
 
-To get started with the app, clone the repo and then install the needed gems:
+https://rails0305.herokuapp.com/
+
+## Local running
+
+Clone the repo and then install the needed gems:
 
 ```
 $ bundle install --without production
@@ -9,7 +13,7 @@ $ bundle install --without production
 Next, migrate and seed the database:
 
 ```
-$ rails db:reset
+$ rails db:setup
 ```
 
 Finally, run the test suite to verify that everything is working correctly:
@@ -24,5 +28,5 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 
-For more information, see the
+This repo is for learning purposes followed this guide:
 [*Ruby on Rails Tutorial* book](http://www.railstutorial.org/book).
