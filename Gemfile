@@ -8,6 +8,8 @@ gem 'rails', '~> 5.2.1'
 gem 'bootstrap-sass'
 gem 'jquery-rails'
 gem 'faker'
+gem 'carrierwave'
+gem 'mini_magick'
 gem 'will_paginate'
 gem 'bootstrap-will_paginate'
 # Use Puma as the app server
@@ -70,6 +72,7 @@ end
 
 group :production do
   gem 'pg'
+  gem 'fog'
 end
 
 
